@@ -1,0 +1,30 @@
+.row {
+  margin-left: 10px;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.row-poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 150px;
+  transition: transform 300ms;
+  margin-right: 15px;
+}
+.row-posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+.row-poster:hover {
+  transform: scale(1.08);
+}
+.LargePoster:hover {
+  transform: scale(1.09);
+}
+.LargePoster {
+  max-height: 250px;
+}
